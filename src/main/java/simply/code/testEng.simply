@@ -1,0 +1,12 @@
+function main(input: nothing) output: nothing {
+    int a = 9;
+    int b = 3;
+
+    int sum = add(a, b);
+    print(sum);
+}
+
+function add(input: int a, int b) output: int {
+    int sum = a + b;
+    return sum;
+}
